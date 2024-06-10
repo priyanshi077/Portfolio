@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(190, 59, 59);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover {
+    background-color: whitesmoke;
+    color:white;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px white;
+    transition: .5s;
+}
+
+.left {
+    font-size: 2.5rem;
+    color: wheat;
+    font-family: cursive;
+    font-weight: 800;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    color: wheat;
+    margin: 80px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    color: wheat;
+    font-size: 2rem;
+    margin: 70px 0;
+    text-decoration: none;
+}
+
+
+.rightSection img {
+    width: 100%;
+    border-radius: 50%;
+    margin: 10px 0;
+    box-shadow: 15px 15px 30px black;
+}
+
+.rightSection img:hover {
+ width: 500px;
+}
+
+.purple {
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#element {
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.secondSection {
+    width: 80vw;
+    height: 80vh;
+}
+
+#myButton {
+    background-color: white;
+    color: rgb(195, 64, 86);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-family: cursive;
+}
+
+#myButton:hover {
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.42);
+    transition: .5s;
+    font-family: cursive;
+}
+
+hr {
+   
+    height: 2px;
+    width: 90vw;
+    margin: auto;
+}
+
+.title {
+    font-size: 2.5rem;
+    
+}
+
+.Description {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+.About-me {
+    margin: 2rem 10rem 2rem 5rem;
+    max-height: 50vh;
+    width: 90vw;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+.skill-list{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.Content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 10rem 2rem 5rem;
+    color: white;
+}
+
+.leftBox:hover, .MidBox:hover, .rightBox:hover, .About-me:hover, .internship:hover{
+    border: 1px solid white;
+    border-radius: 1rem;
+    background-color: white;
+    color: black;
+    transition: .5s;
+    box-shadow: 10px 10px 30px;
+    cursor: pointer;
+    padding: 30px;
+}
+
+.Experience{
+    margin: 2rem 10rem 2rem 5rem;
+    color: white;
+
+}
+
+.Experience h3 {
+    margin-top: 20px;
+    
+}
+
+.Education{
+    color: white;
+    margin: 2rem 10rem 2rem 5rem;
+}
+
